@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C9CAAE51E94C95C006F9091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CAAE41E94C95C006F9091 /* AppDelegate.swift */; };
+		8C9CAAE71E94C95C006F9091 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CAAE61E94C95C006F9091 /* ViewController.swift */; };
+		8C9CAAEA1E94C95C006F9091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9CAAE81E94C95C006F9091 /* Main.storyboard */; };
+		8C9CAAEC1E94C95C006F9091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9CAAEB1E94C95C006F9091 /* Assets.xcassets */; };
+		8C9CAAEF1E94C95C006F9091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9CAAED1E94C95C006F9091 /* LaunchScreen.storyboard */; };
+		8C9CAAFA1E94C95C006F9091 /* iDoodleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CAAF91E94C95C006F9091 /* iDoodleTests.swift */; };
+		8C9CAB051E94C95D006F9091 /* iDoodleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CAB041E94C95D006F9091 /* iDoodleUITests.swift */; };
+		8C9CAB131E94CBE6006F9091 /* Squiggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CAB121E94CBE6006F9091 /* Squiggle.swift */; };
+		8C9CAB151E94CE7C006F9091 /* DoodleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CAB141E94CE7C006F9091 /* DoodleView.swift */; };
+		8C9CAB171E94E991006F9091 /* StrokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CAB161E94E991006F9091 /* StrokeViewController.swift */; };
+		8C9CAB191E94E9A0006F9091 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CAB181E94E9A0006F9091 /* ColorViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C9CAAF61E94C95C006F9091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C9CAAD91E94C95C006F9091 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C9CAAE01E94C95C006F9091;
+			remoteInfo = iDoodle;
+		};
+		8C9CAB011E94C95D006F9091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C9CAAD91E94C95C006F9091 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C9CAAE01E94C95C006F9091;
+			remoteInfo = iDoodle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C9CAAE11E94C95C006F9091 /* iDoodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDoodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9CAAE41E94C95C006F9091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C9CAAE61E94C95C006F9091 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C9CAAE91E94C95C006F9091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C9CAAEB1E94C95C006F9091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C9CAAEE1E94C95C006F9091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C9CAAF01E94C95C006F9091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C9CAAF51E94C95C006F9091 /* iDoodleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDoodleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9CAAF91E94C95C006F9091 /* iDoodleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDoodleTests.swift; sourceTree = "<group>"; };
+		8C9CAAFB1E94C95D006F9091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C9CAB001E94C95D006F9091 /* iDoodleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDoodleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9CAB041E94C95D006F9091 /* iDoodleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDoodleUITests.swift; sourceTree = "<group>"; };
+		8C9CAB061E94C95D006F9091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C9CAB121E94CBE6006F9091 /* Squiggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Squiggle.swift; sourceTree = "<group>"; };
+		8C9CAB141E94CE7C006F9091 /* DoodleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoodleView.swift; sourceTree = "<group>"; };
+		8C9CAB161E94E991006F9091 /* StrokeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeViewController.swift; sourceTree = "<group>"; };
+		8C9CAB181E94E9A0006F9091 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C9CAADE1E94C95C006F9091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9CAAF21E94C95C006F9091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9CAAFD1E94C95D006F9091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C9CAAD81E94C95C006F9091 = {
+			isa = PBXGroup;
+			children = (
+				8C9CAAE31E94C95C006F9091 /* iDoodle */,
+				8C9CAAF81E94C95C006F9091 /* iDoodleTests */,
+				8C9CAB031E94C95D006F9091 /* iDoodleUITests */,
+				8C9CAAE21E94C95C006F9091 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C9CAAE21E94C95C006F9091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C9CAAE11E94C95C006F9091 /* iDoodle.app */,
+				8C9CAAF51E94C95C006F9091 /* iDoodleTests.xctest */,
+				8C9CAB001E94C95D006F9091 /* iDoodleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C9CAAE31E94C95C006F9091 /* iDoodle */ = {
+			isa = PBXGroup;
+			children = (
+				8CE596931E9597660047E289 /* Model */,
+				8CE596921E95968F0047E289 /* View */,
+				8CE596911E9596720047E289 /* Controller */,
+				8C9CAAEB1E94C95C006F9091 /* Assets.xcassets */,
+				8C9CAAF01E94C95C006F9091 /* Info.plist */,
+			);
+			path = iDoodle;
+			sourceTree = "<group>";
+		};
+		8C9CAAF81E94C95C006F9091 /* iDoodleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C9CAAF91E94C95C006F9091 /* iDoodleTests.swift */,
+				8C9CAAFB1E94C95D006F9091 /* Info.plist */,
+			);
+			path = iDoodleTests;
+			sourceTree = "<group>";
+		};
+		8C9CAB031E94C95D006F9091 /* iDoodleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C9CAB041E94C95D006F9091 /* iDoodleUITests.swift */,
+				8C9CAB061E94C95D006F9091 /* Info.plist */,
+			);
+			path = iDoodleUITests;
+			sourceTree = "<group>";
+		};
+		8CE596911E9596720047E289 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8C9CAAE41E94C95C006F9091 /* AppDelegate.swift */,
+				8C9CAAE61E94C95C006F9091 /* ViewController.swift */,
+				8C9CAB161E94E991006F9091 /* StrokeViewController.swift */,
+				8C9CAB181E94E9A0006F9091 /* ColorViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8CE596921E95968F0047E289 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8C9CAAE81E94C95C006F9091 /* Main.storyboard */,
+				8C9CAAED1E94C95C006F9091 /* LaunchScreen.storyboard */,
+				8C9CAB141E94CE7C006F9091 /* DoodleView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8CE596931E9597660047E289 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C9CAB121E94CBE6006F9091 /* Squiggle.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C9CAAE01E94C95C006F9091 /* iDoodle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9CAB091E94C95D006F9091 /* Build configuration list for PBXNativeTarget "iDoodle" */;
+			buildPhases = (
+				8C9CAADD1E94C95C006F9091 /* Sources */,
+				8C9CAADE1E94C95C006F9091 /* Frameworks */,
+				8C9CAADF1E94C95C006F9091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iDoodle;
+			productName = iDoodle;
+			productReference = 8C9CAAE11E94C95C006F9091 /* iDoodle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C9CAAF41E94C95C006F9091 /* iDoodleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9CAB0C1E94C95D006F9091 /* Build configuration list for PBXNativeTarget "iDoodleTests" */;
+			buildPhases = (
+				8C9CAAF11E94C95C006F9091 /* Sources */,
+				8C9CAAF21E94C95C006F9091 /* Frameworks */,
+				8C9CAAF31E94C95C006F9091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C9CAAF71E94C95C006F9091 /* PBXTargetDependency */,
+			);
+			name = iDoodleTests;
+			productName = iDoodleTests;
+			productReference = 8C9CAAF51E94C95C006F9091 /* iDoodleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C9CAAFF1E94C95D006F9091 /* iDoodleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9CAB0F1E94C95D006F9091 /* Build configuration list for PBXNativeTarget "iDoodleUITests" */;
+			buildPhases = (
+				8C9CAAFC1E94C95D006F9091 /* Sources */,
+				8C9CAAFD1E94C95D006F9091 /* Frameworks */,
+				8C9CAAFE1E94C95D006F9091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C9CAB021E94C95D006F9091 /* PBXTargetDependency */,
+			);
+			name = iDoodleUITests;
+			productName = iDoodleUITests;
+			productReference = 8C9CAB001E94C95D006F9091 /* iDoodleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C9CAAD91E94C95C006F9091 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Martin Lindhof Simonsen";
+				TargetAttributes = {
+					8C9CAAE01E94C95C006F9091 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = B8QJE52RF6;
+						ProvisioningStyle = Automatic;
+					};
+					8C9CAAF41E94C95C006F9091 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C9CAAE01E94C95C006F9091;
+					};
+					8C9CAAFF1E94C95D006F9091 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C9CAAE01E94C95C006F9091;
+					};
+				};
+			};
+			buildConfigurationList = 8C9CAADC1E94C95C006F9091 /* Build configuration list for PBXProject "iDoodle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C9CAAD81E94C95C006F9091;
+			productRefGroup = 8C9CAAE21E94C95C006F9091 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C9CAAE01E94C95C006F9091 /* iDoodle */,
+				8C9CAAF41E94C95C006F9091 /* iDoodleTests */,
+				8C9CAAFF1E94C95D006F9091 /* iDoodleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C9CAADF1E94C95C006F9091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9CAAEF1E94C95C006F9091 /* LaunchScreen.storyboard in Resources */,
+				8C9CAAEC1E94C95C006F9091 /* Assets.xcassets in Resources */,
+				8C9CAAEA1E94C95C006F9091 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9CAAF31E94C95C006F9091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9CAAFE1E94C95D006F9091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C9CAADD1E94C95C006F9091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9CAB131E94CBE6006F9091 /* Squiggle.swift in Sources */,
+				8C9CAB171E94E991006F9091 /* StrokeViewController.swift in Sources */,
+				8C9CAB151E94CE7C006F9091 /* DoodleView.swift in Sources */,
+				8C9CAAE71E94C95C006F9091 /* ViewController.swift in Sources */,
+				8C9CAB191E94E9A0006F9091 /* ColorViewController.swift in Sources */,
+				8C9CAAE51E94C95C006F9091 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9CAAF11E94C95C006F9091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9CAAFA1E94C95C006F9091 /* iDoodleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9CAAFC1E94C95D006F9091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9CAB051E94C95D006F9091 /* iDoodleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C9CAAF71E94C95C006F9091 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C9CAAE01E94C95C006F9091 /* iDoodle */;
+			targetProxy = 8C9CAAF61E94C95C006F9091 /* PBXContainerItemProxy */;
+		};
+		8C9CAB021E94C95D006F9091 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C9CAAE01E94C95C006F9091 /* iDoodle */;
+			targetProxy = 8C9CAB011E94C95D006F9091 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C9CAAE81E94C95C006F9091 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C9CAAE91E94C95C006F9091 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C9CAAED1E94C95C006F9091 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C9CAAEE1E94C95C006F9091 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C9CAB071E94C95D006F9091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C9CAB081E94C95D006F9091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C9CAB0A1E94C95D006F9091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B8QJE52RF6;
+				INFOPLIST_FILE = iDoodle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MorDy.iDoodle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8C9CAB0B1E94C95D006F9091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B8QJE52RF6;
+				INFOPLIST_FILE = iDoodle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MorDy.iDoodle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8C9CAB0D1E94C95D006F9091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iDoodleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MorDy.iDoodleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iDoodle.app/iDoodle";
+			};
+			name = Debug;
+		};
+		8C9CAB0E1E94C95D006F9091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iDoodleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MorDy.iDoodleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iDoodle.app/iDoodle";
+			};
+			name = Release;
+		};
+		8C9CAB101E94C95D006F9091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = iDoodleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MorDy.iDoodleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iDoodle;
+			};
+			name = Debug;
+		};
+		8C9CAB111E94C95D006F9091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = iDoodleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MorDy.iDoodleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iDoodle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C9CAADC1E94C95C006F9091 /* Build configuration list for PBXProject "iDoodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9CAB071E94C95D006F9091 /* Debug */,
+				8C9CAB081E94C95D006F9091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9CAB091E94C95D006F9091 /* Build configuration list for PBXNativeTarget "iDoodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9CAB0A1E94C95D006F9091 /* Debug */,
+				8C9CAB0B1E94C95D006F9091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9CAB0C1E94C95D006F9091 /* Build configuration list for PBXNativeTarget "iDoodleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9CAB0D1E94C95D006F9091 /* Debug */,
+				8C9CAB0E1E94C95D006F9091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9CAB0F1E94C95D006F9091 /* Build configuration list for PBXNativeTarget "iDoodleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9CAB101E94C95D006F9091 /* Debug */,
+				8C9CAB111E94C95D006F9091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C9CAAD91E94C95C006F9091 /* Project object */;
+}
